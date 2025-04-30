@@ -15,13 +15,13 @@ const CallToAction = () => {
         marginBottom: '1.5rem',
         fontWeight: '700',
         textShadow: '1px 1px 3px rgba(0,0,0,0.2)'
-      }}>Ready to Hit the Road?</h2>
-      <p style={{
+      }}>From Kalinga classrooms to Indian streets!</h2>
+      {/* <p style={{
         fontSize: '1.25rem',
         maxWidth: '600px',
         margin: '0 auto 2.5rem',
         lineHeight: '1.6'
-      }}>Book your car today and enjoy an unforgettable journey!</p>
+      }}>From Kalinga classrooms to Indian streets!</p> */}
       {/* <button style={{
         backgroundColor: '#e74c3c',
         color: 'white',
