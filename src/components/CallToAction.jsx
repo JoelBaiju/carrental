@@ -22,7 +22,7 @@ const CallToAction = () => {
         margin: '0 auto 2.5rem',
         lineHeight: '1.6'
       }}>Book your car today and enjoy an unforgettable journey!</p>
-      <button style={{
+      {/* <button style={{
         backgroundColor: '#e74c3c',
         color: 'white',
         border: 'none',
@@ -38,7 +38,7 @@ const CallToAction = () => {
           boxShadow: '0 6px 20px rgba(0,0,0,0.3)',
           backgroundColor: '#c0392b'
         }
-      }}>Book Now</button>
+      }}>Book Now</button> */}
     </section>
   );
 };

@@ -5,6 +5,8 @@ import Categories from '../components/Categories.jsx'
 import WhyChooseus from '../components/WhyChooseus.jsx'
 import Testimonials from '../components/Testimonials.jsx'
 import CallToAction from '../components/CallToAction.jsx'
+import { Link } from 'react-router-dom'; 
+
 function Home() {
   return (
     <div>
@@ -15,7 +17,9 @@ function Home() {
       <Testimonials/>
       <CallToAction/>
       
+       
     </div>
+  
   )
 }
 

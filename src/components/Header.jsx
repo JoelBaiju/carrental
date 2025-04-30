@@ -1,9 +1,11 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const user = useSelector((state) => state.user);
   console.log(user);
+
   return (
     <header style={styles.header}>
       <h1 style={styles.title}>Car Rental Service</h1>
@@ -11,20 +13,22 @@ const Header = () => {
         {user.username ? (
           <>
             <span style={styles.username}>Welcome, {user.username}!</span>
-            <a href="/" style={styles.navLink}>Home</a>
-            <a href="#" style={styles.navLink}>About Us</a>
-            <a href="#" style={styles.navLink}>Contact</a>
+            <Link to="/" style={styles.navLink}>Home</Link>
+            <Link to="/about" style={styles.navLink}>About Us</Link>
+            <Link to="/contact" style={styles.navLink}>Contact</Link>
           </>
         ) : (
           <>
-            <a href="/signup" style={styles.navLink}>Sign Up</a>
-            <a href="/login" style={styles.navLink}>Login</a>
-            <a href="#" style={styles.navLink}>Home</a>
-            <a href="#" style={styles.navLink}>About Us</a>
-            <a href="#" style={styles.navLink}>Contact</a>
+            <Link to="/signup" style={styles.navLink}>Sign Up</Link>
+            <Link to="/login" style={styles.navLink}>Login</Link>
+            <Link to="/" style={styles.navLink}>Home</Link>
+            <Link to="/about" style={styles.navLink}>About Us</Link>
+            <Link to="/contact" style={styles.navLink}>Contact</Link>
           </>
         )}
-        <a href="#" id="adminLink" style={{ ...styles.navLink, display: 'none' }}>Admin Dashboard</a>
+        <Link to="/admin" id="adminLink" style={{ ...styles.navLink, display: 'none' }}>
+          Admin Dashboard
+        </Link>
       </nav>
     </header>
   );

@@ -7,15 +7,19 @@ const Testimonials = () => {
       <div style={styles.grid}>
         <div style={styles.card}>
           <p style={styles.quote}>"Amazing service! The car was in perfect condition and the process was smooth."</p>
-          <h4 style={styles.author}>- Alex D.</h4>
+          <h4 style={styles.author}>- Aditya</h4>
         </div>
         <div style={styles.card}>
           <p style={styles.quote}>"Best rental experience I've ever had. Highly recommend!"</p>
-          <h4 style={styles.author}>- Maria S.</h4>
+          <h4 style={styles.author}>- priyansh</h4>
         </div>
         <div style={styles.card}>
           <p style={styles.quote}>"Great support and variety of cars. Will definitely rent again."</p>
-          <h4 style={styles.author}>- James T.</h4>
+          <h4 style={styles.author}>- Rounak</h4>
+        </div>
+        <div style={styles.card}>
+          <p style={styles.quote}>"Highly recommended"</p>
+          <h4 style={styles.author}>- Shreyansh</h4>
         </div>
       </div>
     </section>
