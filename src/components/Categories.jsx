@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import sports from '../media/sports.jpg';
 import ev from '../media/ev.jpg';
 import lux from '../media/luxury.jpg';
 import eco from '../media/economy.jpg';
