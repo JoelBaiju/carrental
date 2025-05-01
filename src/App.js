@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <BrowserRouter basename="/carrental">
+    <BrowserRouter >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cars/:category" element={<Listing />} />

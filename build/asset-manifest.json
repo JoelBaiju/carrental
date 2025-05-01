@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/carrental/static/css/main.e6c13ad2.css",
-    "main.js": "/carrental/static/js/main.91ce5687.js",
-    "static/js/453.b33f270b.chunk.js": "/carrental/static/js/453.b33f270b.chunk.js",
-    "static/media/suv.jpg": "/carrental/static/media/suv.08d9258f8633888cd2be.jpg",
-    "static/media/luxury.jpg": "/carrental/static/media/luxury.727e65be0f093cd81986.jpg",
-    "static/media/ev.jpg": "/carrental/static/media/ev.c1c7ef97d4e80042de4f.jpg",
-    "static/media/economy.jpg": "/carrental/static/media/economy.53e2e7781be01c20641a.jpg",
-    "index.html": "/carrental/index.html",
-    "main.e6c13ad2.css.map": "/carrental/static/css/main.e6c13ad2.css.map",
-    "main.91ce5687.js.map": "/carrental/static/js/main.91ce5687.js.map",
-    "453.b33f270b.chunk.js.map": "/carrental/static/js/453.b33f270b.chunk.js.map"
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.673353aa.js",
+    "static/js/453.b33f270b.chunk.js": "/static/js/453.b33f270b.chunk.js",
+    "static/media/suv.jpg": "/static/media/suv.08d9258f8633888cd2be.jpg",
+    "static/media/luxury.jpg": "/static/media/luxury.727e65be0f093cd81986.jpg",
+    "static/media/ev.jpg": "/static/media/ev.c1c7ef97d4e80042de4f.jpg",
+    "static/media/economy.jpg": "/static/media/economy.53e2e7781be01c20641a.jpg",
+    "index.html": "/index.html",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.673353aa.js.map": "/static/js/main.673353aa.js.map",
+    "453.b33f270b.chunk.js.map": "/static/js/453.b33f270b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.91ce5687.js"
+    "static/js/main.673353aa.js"
   ]
 }
